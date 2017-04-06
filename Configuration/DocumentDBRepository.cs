@@ -9,6 +9,9 @@ using Microsoft.Azure.Documents.Linq;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
+///
+//   Repository implementation for Azure DocumentDB
+///
 namespace Tokens.Configuration
 {
     public class DocumentDbRepository<T> : IRepository<T> where T : class
@@ -52,33 +55,12 @@ namespace Tokens.Configuration
             }
         }
 
-        public async Task<IEnumerable<T>> GetItemsAsync(Expression<Func<T, bool>> predicate)
-        {
-            IDocumentQuery<T> query = _client.CreateDocumentQuery<T>(
-                UriFactory.CreateDocumentCollectionUri(_databaseId, _collectionId),
-                new FeedOptions { MaxItemCount = -1 })
-                .Where(predicate)
-                .AsDocumentQuery();
-
-            List<T> results = new List<T>();
-            while (query.HasMoreResults)
-            {
-                results.AddRange(await query.ExecuteNextAsync<T>());
-            }
-
-            return results;
-        }
-
         public async Task<Document> CreateItemAsync(T item)
         {
             _logger.LogInformation("DocumentDbRepository::CreateItemAsync");
             return await _client.CreateDocumentAsync(UriFactory.CreateDocumentCollectionUri(_databaseId, _collectionId), item);
         }
 
-        public async Task<Document> UpdateItemAsync(string id, T item)
-        {
-            return await _client.ReplaceDocumentAsync(UriFactory.CreateDocumentUri(_databaseId, _collectionId, id), item);
-        }
 
         public async Task DeleteItemAsync(string id)
         {

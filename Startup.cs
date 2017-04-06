@@ -35,9 +35,12 @@ namespace Tokens
 
             services.AddOptions();
 
-            services.Configure<DB>(Configuration.GetSection("DB"));
+            //services.Configure<DB>(Configuration.GetSection("DB"));
+            services.Configure<MongoDBOptions>(Configuration.GetSection("MongoDBOptions"));
 
-            services.AddSingleton<IDocumentDBRepository<Token>, DocumentDbRepository<Token>>();
+            //services.AddSingleton<IRepository<Token>, DocumentDbRepository<Token>>();
+            services.AddSingleton<IRepository<Token>, MongoDbRepository<Token>>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
