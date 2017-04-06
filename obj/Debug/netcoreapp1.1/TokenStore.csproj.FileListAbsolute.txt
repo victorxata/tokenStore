@@ -1,0 +1,9 @@
+/Users/victorzaragoza/OneDrive/projects/dotnet/VZWellness/Tokens/bin/Debug/netcoreapp1.1/TokenStore.deps.json
+/Users/victorzaragoza/OneDrive/projects/dotnet/VZWellness/Tokens/bin/Debug/netcoreapp1.1/TokenStore.runtimeconfig.json
+/Users/victorzaragoza/OneDrive/projects/dotnet/VZWellness/Tokens/bin/Debug/netcoreapp1.1/TokenStore.runtimeconfig.dev.json
+/Users/victorzaragoza/OneDrive/projects/dotnet/VZWellness/Tokens/bin/Debug/netcoreapp1.1/TokenStore.dll
+/Users/victorzaragoza/OneDrive/projects/dotnet/VZWellness/Tokens/bin/Debug/netcoreapp1.1/TokenStore.pdb
+/Users/victorzaragoza/OneDrive/projects/dotnet/VZWellness/Tokens/obj/Debug/netcoreapp1.1/TokenStore.csprojResolveAssemblyReference.cache
+/Users/victorzaragoza/OneDrive/projects/dotnet/VZWellness/Tokens/obj/Debug/netcoreapp1.1/TokenStore.AssemblyInfo.cs
+/Users/victorzaragoza/OneDrive/projects/dotnet/VZWellness/Tokens/obj/Debug/netcoreapp1.1/TokenStore.dll
+/Users/victorzaragoza/OneDrive/projects/dotnet/VZWellness/Tokens/obj/Debug/netcoreapp1.1/TokenStore.pdb

@@ -1,0 +1,9 @@
+C:\Users\v.zaragoza.lluch\OneDrive\projects\dotnet\Tokens\Tokens\bin\Debug\netcoreapp1.1\Tokens.deps.json
+C:\Users\v.zaragoza.lluch\OneDrive\projects\dotnet\Tokens\Tokens\bin\Debug\netcoreapp1.1\Tokens.runtimeconfig.json
+C:\Users\v.zaragoza.lluch\OneDrive\projects\dotnet\Tokens\Tokens\bin\Debug\netcoreapp1.1\Tokens.runtimeconfig.dev.json
+C:\Users\v.zaragoza.lluch\OneDrive\projects\dotnet\Tokens\Tokens\bin\Debug\netcoreapp1.1\Tokens.dll
+C:\Users\v.zaragoza.lluch\OneDrive\projects\dotnet\Tokens\Tokens\obj\Debug\netcoreapp1.1\Tokens.csprojResolveAssemblyReference.cache
+C:\Users\v.zaragoza.lluch\OneDrive\projects\dotnet\Tokens\Tokens\obj\Debug\netcoreapp1.1\Tokens.AssemblyInfo.cs
+C:\Users\v.zaragoza.lluch\OneDrive\projects\dotnet\Tokens\Tokens\bin\Debug\netcoreapp1.1\Tokens.pdb
+C:\Users\v.zaragoza.lluch\OneDrive\projects\dotnet\Tokens\Tokens\obj\Debug\netcoreapp1.1\Tokens.dll
+C:\Users\v.zaragoza.lluch\OneDrive\projects\dotnet\Tokens\Tokens\obj\Debug\netcoreapp1.1\Tokens.pdb
